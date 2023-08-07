@@ -5,7 +5,7 @@ public class DecrementingCarousel {
     static int [] arr;
     int addingPosition = 0;
     int capacity;
-    private boolean isRunning;
+    public boolean isRunning;
     public DecrementingCarousel(int capacity) {
         this.capacity = capacity;
         this.arr = new int[capacity];
